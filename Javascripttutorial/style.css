@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: "Inria Sans", static;
+}
+
+body{
+    background: #FF9900
+}
+
+header{
+    background-color: #FF9900;
+}
+
+.navbar, .menu, .link{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+h2, a{
+    text-decoration: none;
+}
+
+header, .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text], input[type=password]{
+    display: flex;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    border: none;
+    padding: 30px, 50px;
+    border-radius: 15px;
+    font-size: 21px;
+    margin: 4px, 3px;
+    width: 50%;
+
+}
+
+form{
+    background-color: white;
+    margin: 30px 50px;
+    width: 40%;
+    padding: 100px;
+}
